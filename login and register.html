@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login / Register</title>
+</head>
+<body>
+    
+    <div class="login">
+        <form action="" method="POST" class="form-box">
+            <div class="log-bnt">
+                <a href="#" id="hide" onclick=toggle()>Login</a>
+                <div class="boder-line"></div>
+                <a href="#" id="show" onclick=toggle2()>Register</a>
+            </div>
+            <hr>
+            <div class="title-box">
+                <h3 id="shows">Lo<samp>g</samp>in</h3>
+                <h3 id="hiden">Re<samp>g</samp>ister</h3>
+            </div>
+            <div class="log">
+                <div class="fil-box">
+                    <input type="text" name="" id="hiden_1" placeholder="Username">
+                </div>
+                <div class="fil-box">
+                    <input type="text" name="" placeholder="Email">
+                </div>
+                <div class="fil-box">
+                    <input type="text" name="" placeholder="Password">
+                </div>
+                <div class="fil-box">
+                    <input type="text" name="" id="hiden_2" placeholder="Confarm Password">
+                </div>
+                <div class="fog-log" id="hiden_3">
+                    <div>
+                        <input type="checkbox"><label for=""> Remember me</label>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                </div>
+                <div id="shows_1">
+                    <input type="submit" class="log-reg" value="Log in">
+                </div>
+                <div id="hiden_4">
+                    <input type="submit" class="log-reg" value="Register">
+                </div>
+            </div>
+        </form>
+    </div>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
